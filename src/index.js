@@ -11,7 +11,10 @@ root.render(
     <Auth0Provider
       domain={process.env.REACT_APP_AUTH_DOMAIN} //my Domain of this project in Auth0
       clientId={process.env.REACT_APP_AUTH_CLIEND_ID} //my client id of this project in Auth0
-      redirectUri={window.location.origin}
+      // redirectUri={window.location.origin}
+      authorizationParams = {{
+        redirect_url: window.location.origin,
+      }}
       cacheLocation="localstorage"
     >
       <GithubProvider>
