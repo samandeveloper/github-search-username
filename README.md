@@ -1,4 +1,5 @@
 ## github-search-username App:
+#### Please see the deployment of this project here: https://github-search-username-react.netlify.app
 #### 1. The app's frontend is built using React.
 #### 2. Accessing the app's dashboard requires user login or signup.
 #### 3. I employ Auth0 for secure login/signup and authentication, supporting email and Google accounts.
